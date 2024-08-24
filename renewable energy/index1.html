@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renewable Energy</title>
+    <style>
+        body{
+            background-image: url('energy jpg2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            scroll-behavior: smooth;
+        }
+        *{
+            margin: 0;
+            padding: -2;
+        }
+        .navbar{
+            display: flex;
+        }
+        .nav-list{
+            width: 100%;
+            background-color: rgba(250, 140, 5, 0.3);
+            display: flex;
+            align-items: center;
+        }
+        .rightnav{
+            width: 30%;
+            background-color: rgba(250, 140, 5, 0.3);
+            text-align: right;
+        }
+        .logo{
+           width: 15%;
+           display: flex; 
+           justify-content: center;
+           align-items: center;
+        }
+        .logo img{
+            width: 37%;
+            border: 3px solid white;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        .navbar ul li a:hover{/* by hovering we can see if we move cursor one home it looks dark red with background white */
+            color: rgb(253, 2, 2);
+            background-color: white;
+        }
+        .nav-list li{
+            list-style: none;
+            padding: 23px 28px;
+        }
+        .nav-list li a{
+            text-decoration: none;
+            color: antiquewhite;
+            font-size: 18px;
+        }
+        .nav-list li a:hover{
+            color:rgb(13, 248, 83);
+        }
+        #search{
+            padding: 5px;
+            margin-right: 20px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+            margin-top: 4%;
+        }
+        .background{
+            background:rgba(0,0,0,0.7)url('/energy\jpg2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .btn{
+            cursor: pointer;
+            margin-top: 4%;
+            margin-right: 20px;
+        }
+        .box-main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(0, 0, 0,0.7);
+            /*font-family: 'Courier New', Courier, monospace;*/
+            margin-top: 12%;
+            /*margin-right: 2%;*/
+            font-size: 20px;
+            font-weight: 2px;
+        }
+        .btn:hover{
+            color: rgb(68, 0, 255);
+        }
+        .mg{
+            padding-top: 35px;
+            font-size: 30px;
+        }
+        @media(max-width: 992px){
+        .navbar{
+            flex-direction: column;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <section class="background firstsection"></section>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo" onclick="location.href=''"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQptn2JYv_NYUgrH3xJv1nvbOJNulwCVCJTTg&usqp=CAU" alt="Logo"></div>
+            <li><a href="/index1.html">Home</a></li>
+            <li><a href="/about.html">Awareness</a></li>
+            <li><a href="/gallary.html">Gallery</a></li>
+            <li><a href="/energies.html">Energies</a></li>
+            <li><a href="/management.html">Management</a></li>
+            <li><a href="/team.html">Team</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="Search" id="search">
+            <button class="btn btn-sn">Search</button>
+        </div>
+    </nav>
+    <div class="box-main">
+        <h1 class="quote">A little effort towards saving the environment is better than no effect</h1>
+        <p class="mg">The Good man is the friend of all Living Things</p>
+    <!-- </div>
+    <div class="rightnav">
+        <input type="text" name="Search" id="search">
+        <button class="btn btn-sn">Search</button>
+    </div> -->
+    </section>
+
+
+</body>
+</html>

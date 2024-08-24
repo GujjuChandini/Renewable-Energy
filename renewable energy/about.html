@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: #dee0e3;
+    }
+    .heading{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .heading h1{
+        font-size: 50px;
+        color: #36455c;
+        margin-bottom: 10px;
+    }
+    .heading p{
+        font-size: 20px;
+        color: #666;
+        margin-bottom: 60px;
+    }
+    .about-us{
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+    }
+    .about-us img{
+        flex: 0 40%;
+        max-width: 50%;
+        height: auto;
+    }
+    .content{
+        padding: 45px;
+    }
+    .content h2{
+        color: #36455c;
+        font-size: 24px;
+        margin: 15px 0px;
+    }
+    .content p{
+        color: #666;
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 15px 0px;
+    }
+    .read-more-btn{
+        display: inline-block;
+        color: #fff;
+        background-color: #0084ff;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.2s ease;
+    }
+    .read-more-btn:hover{
+        background-color: #006dd6;
+    }
+    @media(max-width: 768px){
+        .about-us{
+            flex-direction: column;
+        }
+        .about-us img{
+            flex: 0 100%;
+            max-width: 100%;
+        }
+        .content{
+            float: 0 100%;
+            max-width: 100%;
+            padding: 15px;
+        }
+    }
+</style>
+<body>
+    <div class="heading">
+        <h1>Awareness</h1>
+        <p>A Transition to clean energy is about making an investement in our future</p>
+    </div>
+    <section class="about-us">
+        <img src="https://d2u4q3iydaupsp.cloudfront.net/0Pi2MznMcbHWtczAd7AiAygE9DSwXls3mcLnkUEmLQU8KC8qy7UlrA9EyQIxf84h2ATZK7OZTv7NusICYQoAm6yE2btUAEG9SWID9wjdVyMruU19Uzj7WVOyoKn3PS41" alt="">
+        <div class="content">
+            <h2>I support Renewable Energy</h2>
+            <p>People should have values, so by extension, a company should.And one of the things you do is give back.So how do you give back? We give back through work in the environment, in running the company on renewable energy. We give back in job creation</p>
+            <button class="read-more-btn" onclick="location.href='https://en.wikipedia.org/wiki/Renewable_energy'">Read More   
+            </button>
+            <button class="read-more-btn"onclick="location.href='/index1.html'">Home</button>
+            
+        </div>
+    </section>
+</body>
+</html>
